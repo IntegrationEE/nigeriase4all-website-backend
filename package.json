@@ -2,7 +2,7 @@
   "name": "nigeriase4all-backend",
   "private": true,
   "version": "0.1.0",
-  "description": "NigeriaSE4ALL Strapi backend for Blog",
+  "description": "NigeriaSE4ALL Strapi Backend for the nesp2 website providing content management",
   "scripts": {
     "dev": "strapi develop",
     "start": "strapi start",
@@ -12,7 +12,6 @@
   "dependencies": {
     "dotenv": "^16.0.0",
     "knex": "0.21.18",
-    "ng": "0.0.0",
     "pg": "^8.7.1",
     "slugify": "^1.6.0",
     "sqlite3": "5.0.0",
@@ -23,14 +22,13 @@
     "strapi-plugin-content-type-builder": "3.6.8",
     "strapi-plugin-documentation": "^3.6.8",
     "strapi-plugin-email": "3.6.8",
-    "strapi-plugin-graphql": "^3.6.8",
     "strapi-plugin-i18n": "3.6.8",
     "strapi-plugin-upload": "3.6.8",
     "strapi-plugin-users-permissions": "3.6.8",
     "strapi-utils": "3.6.8"
   },
   "author": {
-    "name": "Fortune King"
+    "name": "Fortune King and INTEGRATION environment and energy"
   },
   "strapi": {
     "uuid": "97a15fd8-df8c-4979-8fee-82de38d8d901"
@@ -39,5 +37,5 @@
     "node": ">=10.16.0 <=14.x.x",
     "npm": "^6.0.0"
   },
-  "license": "MIT"
+  "license": "AGPL-3.0"
 }
